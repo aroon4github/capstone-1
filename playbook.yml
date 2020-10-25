@@ -1,4 +1,4 @@
-- hosts: kube
+- hosts: localhost
   tasks:
   - name: Deploy the service
     k8s:
