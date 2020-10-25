@@ -8,7 +8,7 @@ pipeline {
        stage('Build') {
            agent {
                docker {
-                   image 'capstone-1'
+                   image 'golang'
                }
            }
            steps {
